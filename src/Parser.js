@@ -1,4 +1,6 @@
 const { Tokenizer } = require("./Tokenizer");
+// todo что если скормить Parser дерево ast, где до его вызова я замкну
+// ast которое получу от babel
 
 class Parser {
     constructor() {
